@@ -20,6 +20,7 @@ print(f"{guest_list[2]}, {msg}")
 print(f"{guest_list[3]}, {msg}")
 print(f"{guest_list[4]}, {msg}")
 print(f"{guest_list[5]}, {msg}")
+print(f"I am inviting {len(guest_list)} people.")
 
 print("\nSorry, I can only invite 2 people.")
 uninvited_guest = guest_list.pop()
