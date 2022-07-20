@@ -1,5 +1,15 @@
 toppings = ['pepperoni', 'sausage', 'spinach']
-for topping in toppings:
-  print(f"I like {topping} pizza!")
+friends_toppings = toppings[:]
 
-print("\nI really like pizza!")
+toppings.append("extra cheese")
+friends_toppings.append("cauliflower")
+
+for topping in toppings:
+    print(f"I like {topping} pizza!")
+
+print("\n")
+
+for topping in friends_toppings:
+    print(f"My friend likes {topping} pizza!")
+
+print("\nWe really like pizza!")
